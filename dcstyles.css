@@ -230,6 +230,12 @@ hr {
     font-size: 2em;
 }
 
+#horizon h3 {
+    font-size: 2em;
+    margin-left: 48%;
+    color: midnightblue;
+}
+
 #contact fieldset {
     width: 760px;
     margin-left: 24%;
