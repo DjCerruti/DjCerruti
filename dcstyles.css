@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+body {
+    
+    background-color:rgb(2, 2, 44);
+    margin-bottom: 0em;
+    margin-top: 0em;
+    
+
+}
+
+.wrapper {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:aliceblue;
+    padding-left: 3em;
+    padding-bottom: 1em;
+    border-left: 25px solid cadetblue;
+   
+}
+
+h1 {
+    font-family: "trattatello", sans-serif;
+    font-size: 8em;
+    margin-top: -.2em;
+    margin-bottom: -.5em;
+    color: goldenrod;
+    padding-left: 0em;
+    text-shadow: .1em .1em .1em midnightblue;
+
+}
+
+h2 {
+    font-size: 3em;
+    color:midnightblue;
+    font-weight: 800;
+    margin-left: 50%;
+    position: relative;
+    top: 0em;
+    }
+}
+
+h3 {
+    font-size: 2em;
+    color: midnightblue;
+}
+
+#catchphrase {
+    font-size: 3em;
+    font-family: palatino;
+    margin-top: -5em;
+    padding-left: 0em;
+    color: cadetblue;
+}
+
+p, body .intro ul {
+    font-size: 1.5em;
+}
+
+header {
+    min-width: 400px;
+    float: left;
+
+}
+
+.intro {
+    display: block;
+    clear: both;
+}
+
+#home nav ul, #about nav ul, #books nav ul, #horizon nav ul, #news nav ul, #contact nav ul {
+    list-style-type: none;
+    margin-left: -1em;
+    position: relative;
+    z-index: 0;
+    top: -3em;
+    background-color: cadetblue;
+    padding-top: 5em;
+    padding-bottom: 1em;
+    height: 29.5em;
+    border-radius: 25px;
+    width: 16em;
+
+}
+
+#home nav ul li, #about nav ul li, #books nav ul li, #horizon nav ul li, #news nav ul li, #contact nav ul li {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#home header nav ul a, #about header nav ul a, #books header nav ul a, #horizon header nav ul a, #news header nav ul a, #contact header nav ul a {
+    text-decoration: none;
+}
+
+.relative {
+    position: relative;
+    z-index: 2;
+}
+
+a:link {
+    color: midnightblue;
+}
+
+a:visited {
+    color:whitesmoke;
+}
+
+header nav ul a:active {
+    color:indianred;
+}
+
+nav ul a:hover {
+    color:darkgoldenrod;
+}
+
+.featuredimage {
+    border: 15px solid cadetblue;
+    padding: 10px;
+    border-radius: 15%;
+    width: 760px;
+    height: 520px;
+    float: left;
+    margin-top: -39.4em;
+    margin-left: 36%;
+
+}
+
+.intro {
+    clear: both;
+    width: 760px;
+    position: relative;
+    left: 20em;
+    top: -2em;
+}
+
+.p1 {
+    clear: both;
+    width: 1200px;
+    height: 640px;
+    
+}
+
+.p1 img {
+    width: 400px;
+    height: 600px;
+    float: left;
+    padding: 2em;
+    padding-left: 8em;
+}
+
+.p1 p {
+    padding: 2em;
+    width: 400px;
+    float: left;
+}
+
+.p1 span {
+    font-size: 2em;
+}
+
+.p2 img {
+    clear: both;
+    width: 400px;
+    height: 600px;
+    float: right;
+    padding: 2em;
+    padding-left: 1em;
+    padding-right: 12em;
+}
+
+.p2 p {
+    padding: 2em;
+    width: 400px;
+    float: right;
+}
+
+.p2 span {
+    font-size: 2em;
+}
+
+.p3 img {
+    width: 400px;
+    height: 600px;
+    float: left;
+    padding: 2em;
+    padding-left: 8em;
+    clear: both;
+}
+
+.p3 p {
+    padding: 2em;
+    width: 400px;
+    float: left;
+}
+
+.p3 span {
+    font-size: 2em;
+}
+
+hr {
+    width: 80%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.5em;
+}
+
+.endmark {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 3px;
+
+}
+
+.bookimage { 
+    width: 700px;
+    height: 780px;
+    margin-left: 21.5em;
+
+}
+
+.horizonp p {
+    width: 700px;
+    margin-left: 15em;
+}
+#horizon .may {
+    font-size: 2em;
+}
+
+#contact fieldset {
+    width: 760px;
+    margin-left: 24%;
+    border: 15px solid cadetblue;
+    margin-top: -3em;
+    margin-bottom: 1em;
+    border-radius: 25px;
+}
+
+fieldset legend {
+    font-size: 2em;
+    padding: .5em;
+    border: 5px solid cadetblue;
+    color: midnightblue;
+    border-radius: 25px;
+}
+
+fieldset input[type=text], fieldset input[type=email] {
+    width: 26em;
+    margin-top: 1.5em;
+    margin-right: 1.5em;
+    border-radius: 25px;
+    height: 2em;
+}
+
+fieldset p {
+    font-size: 1.3em;
+}
+
+fieldset label {
+    font-size: 1.3em;
+    margin-left: 0em;
+    
+}
+
+textarea {
+    border-radius: 25px;
+}
+
+fieldset button {
+    font-size: 2em;
+    padding: .2em;
+    margin: .5em;
+    border-radius: 15px;
+}
+
+#contact247 {
+    clear: both;
+    margin-left: 27%;
+    padding-top: 1em;
+    position: relative;
+    top: -2em;
+}
