@@ -19,10 +19,10 @@ body {
 }
 
 h1 {
-    font-family: "trattatello", sans-serif;
+    font-family: Jura, sans-serif;
     font-size: 8em;
     margin-top: -.2em;
-    margin-bottom: -.5em;
+    margin-bottom: -.2em;
     color: goldenrod;
     padding-left: 0em;
     text-shadow: .1em .1em .1em midnightblue;
@@ -30,6 +30,7 @@ h1 {
 }
 
 h2 {
+    font-family: Jura, sans-serif;
     font-size: 3em;
     color:midnightblue;
     font-weight: 800;
@@ -38,6 +39,7 @@ h2 {
     }
 
 #home h3 {
+    font-family: Jura, sans-serif;
     font-size: 2em;
     color: midnightblue;
     margin-left: 12.8em;
@@ -46,20 +48,25 @@ h2 {
 }
 
 #home h4 {
+    font-family: Jura, sans-serif;
     font-size: 1.5em;
     margin-bottom: 0em;
+    font-weight: 600;
 }
 
 #catchphrase {
     font-size: 3em;
-    font-family: palatino;
-    margin-top: -5em;
+    font-family: Jura;
+    margin-top: 0em;
     padding-left: 0em;
     color: cadetblue;
+    font-weight: 800;
 }
 
 p, body .intro ul {
     font-size: 1.5em;
+    font-family: Arsenal;
+    font-weight: 100;
 }
 
 header {
@@ -81,7 +88,7 @@ article .excerpt {
     display: -webkit-box;
     overflow: hidden;
     text-overflow: ellipsis;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 0;
     -webkit-box-orient: vertical;  
     width: 760px;
     height: 185px;
@@ -89,6 +96,10 @@ article .excerpt {
     border: 10px solid cadetblue;
     border-radius: 25px;
     margin-bottom: 1em;
+}
+
+.invisible {
+    display: none;
 }
 
 #home nav ul, #about nav ul, #books nav ul, #horizon nav ul, #news nav ul, #contact nav ul, #gateway nav ul, #resources nav ul {
@@ -111,6 +122,7 @@ article .excerpt {
     margin-bottom: .85em;
     position: relative;
     top: -1.4em;
+    font-family: Jura, sans-serif;
 }
 
 #home header nav ul a, #about header nav ul a, #books header nav ul a, #horizon header nav ul a, #news header nav ul a, #contact header nav ul a {
@@ -247,6 +259,7 @@ hr {
 }
 
 fieldset legend {
+    font-family: Jura, sans-serif;
     font-size: 2em;
     padding: .5em;
     border: 5px solid cadetblue;
@@ -267,6 +280,7 @@ fieldset p {
 }
 
 fieldset label {
+    font-family: Arsenal, sans-serif;
     font-size: 1.3em;
     margin-left: 0em;
     
@@ -277,12 +291,14 @@ textarea {
 }
 
 fieldset button {
+    font-family: Jura, sans-serif;
     font-size: 2em;
-    padding: .2em;
+    padding: .3em;
     margin: .5em;
     border-radius: 15px;
-    background-color: midnightblue;
-    color: whitesmoke;
+    background-color: cadetblue;
+    color: midnightblue;
+    border: 5px solid midnightblue;
 }
 
 #contact247 {
@@ -293,14 +309,16 @@ fieldset button {
     top: -2em;
 }
 
-footer {
-    clear: both;
-}
-
 .icon-bar {
     font-size: 1.5em;
 }
 
 footer p {
     font-size: 1.2em;
+    font-family: Jura, sans-serif;
+    
+}
+
+small {
+    font-family: Jura, sans-serif;
 }
