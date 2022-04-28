@@ -5,8 +5,6 @@ body {
     background-color:rgb(2, 2, 44);
     margin-bottom: 0em;
     margin-top: 0em;
-    
-
 }
 
 .wrapper {
@@ -37,13 +35,19 @@ h2 {
     font-weight: 800;
     margin-left: 50%;
     position: relative;
-    top: 0em;
     }
-}
 
-h3 {
+#home h3 {
     font-size: 2em;
     color: midnightblue;
+    margin-left: 12.8em;
+    margin-top: -.5em;
+    margin-bottom: 0em;
+}
+
+#home h4 {
+    font-size: 1.5em;
+    margin-bottom: 0em;
 }
 
 #catchphrase {
@@ -65,11 +69,29 @@ header {
 }
 
 .intro {
-    display: block;
     clear: both;
+    width: 760px;
+    position: relative;
+    left: 20em;
+    top: -2em;
 }
 
-#home nav ul, #about nav ul, #books nav ul, #horizon nav ul, #news nav ul, #contact nav ul {
+article .excerpt { 
+    margin-left: 19em;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    width: 760px;
+    height: 185px;
+    padding: 1em;
+    border: 10px solid cadetblue;
+    border-radius: 25px;
+    margin-bottom: 1em;
+}
+
+#home nav ul, #about nav ul, #books nav ul, #horizon nav ul, #news nav ul, #contact nav ul, #gateway nav ul, #resources nav ul {
     list-style-type: none;
     margin-left: -1em;
     position: relative;
@@ -84,9 +106,11 @@ header {
 
 }
 
-#home nav ul li, #about nav ul li, #books nav ul li, #horizon nav ul li, #news nav ul li, #contact nav ul li {
+#home nav ul li, #about nav ul li, #books nav ul li, #horizon nav ul li, #news nav ul li, #contact nav ul li, #gateway nav ul li, #resources nav ul li {
     font-size: 2em;
-    margin-bottom: 1em;
+    margin-bottom: .85em;
+    position: relative;
+    top: -1.4em;
 }
 
 #home header nav ul a, #about header nav ul a, #books header nav ul a, #horizon header nav ul a, #news header nav ul a, #contact header nav ul a {
@@ -126,12 +150,8 @@ nav ul a:hover {
 
 }
 
-.intro {
-    clear: both;
-    width: 760px;
-    position: relative;
-    left: 20em;
-    top: -2em;
+footer {
+    margin-top: 2em;
 }
 
 .p1 {
@@ -156,7 +176,7 @@ nav ul a:hover {
 }
 
 .p1 span {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .p2 img {
@@ -176,26 +196,7 @@ nav ul a:hover {
 }
 
 .p2 span {
-    font-size: 2em;
-}
-
-.p3 img {
-    width: 400px;
-    height: 600px;
-    float: left;
-    padding: 2em;
-    padding-left: 8em;
-    clear: both;
-}
-
-.p3 p {
-    padding: 2em;
-    width: 400px;
-    float: left;
-}
-
-.p3 span {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 hr {
@@ -288,4 +289,16 @@ fieldset button {
     padding-top: 1em;
     position: relative;
     top: -2em;
+}
+
+footer {
+    clear: both;
+}
+
+.icon-bar {
+    font-size: 1.5em;
+}
+
+footer p {
+    font-size: 1.2em;
 }
