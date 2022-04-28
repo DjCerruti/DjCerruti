@@ -254,11 +254,6 @@ fieldset legend {
     border-radius: 25px;
 }
 
-#contact input[type=submit] {
-    background-color: cadetblue;
-    color: whitesmoke;
-}
-
 fieldset input[type=text], fieldset input[type=email] {
     width: 26em;
     margin-top: 1.5em;
@@ -286,6 +281,8 @@ fieldset button {
     padding: .2em;
     margin: .5em;
     border-radius: 15px;
+    background-color: midnightblue;
+    color: whitesmoke;
 }
 
 #contact247 {
