@@ -254,8 +254,8 @@ fieldset legend {
     border-radius: 25px;
 }
 
-#contact button {
-    background-color: midnightblue;
+#contact input[type=submit] {
+    background-color: cadetblue;
     color: whitesmoke;
 }
 
