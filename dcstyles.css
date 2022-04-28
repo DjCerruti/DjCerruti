@@ -125,7 +125,7 @@ article .excerpt {
     font-family: Jura, sans-serif;
 }
 
-#home header nav ul a, #about header nav ul a, #books header nav ul a, #horizon header nav ul a, #news header nav ul a, #contact header nav ul a {
+#home header nav ul a, #about header nav ul a, #books header nav ul a, #horizon header nav ul a, #news header nav ul a, #contact header nav ul a, #gateway nav ul a, #resources nav ul a  {
     text-decoration: none;
 }
 
