@@ -305,7 +305,7 @@ fieldset button {
     padding: .3em;
     margin: .5em;
     border-radius: 15px;
-    background-image: radial-gradient(#e6e6e6 33%, #afcecf 88%);
+    background-image: radial-gradient(#e6e6e6 33%, #cfe2e2 88%);
     color: midnightblue;
     border: 5px solid midnightblue;
 }
