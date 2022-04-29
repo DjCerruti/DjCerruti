@@ -21,7 +21,7 @@ body {
 h1 {
     font-family: Jura, sans-serif;
     font-size: 8em;
-    margin-top: -.2em;
+    margin-top: -0em;
     margin-bottom: -.2em;
     color: goldenrod;
     padding-left: 0em;
@@ -268,7 +268,7 @@ fieldset legend {
 }
 
 fieldset input[type=text], fieldset input[type=email] {
-    width: 26em;
+    width: 24.5em;
     margin-top: 1.5em;
     margin-right: 1.5em;
     border-radius: 25px;
@@ -296,7 +296,7 @@ fieldset button {
     padding: .3em;
     margin: .5em;
     border-radius: 15px;
-    background-color: cadetblue;
+    background-image: radial-gradient(#e6e6e6 30%, #afcecf 94%);
     color: midnightblue;
     border: 5px solid midnightblue;
 }
