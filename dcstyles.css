@@ -1,10 +1,13 @@
 @charset "UTF-8";
 
+
 body {
     
     background-color:rgb(2, 2, 44);
     margin-bottom: 0em;
     margin-top: 0em;
+    position: relative;
+    z-index: -1;
 }
 
 .wrapper {
@@ -63,6 +66,28 @@ h2 {
     font-weight: 600;
 }
 
+#horizon h3 {
+    font-size: 2em;
+    margin-left: 48%;
+    color: midnightblue;
+    font-family: Arsenal;
+}
+
+#resources h3 {
+    font-family: Jura, sans-serif;
+    font-size: 2em;
+    color: midnightblue;
+    position: relative;
+    left: 9.7em;
+}
+
+#news h3 {
+    font-family: Jura, sans-serif;
+    font-size: 2em;
+    color: midnightblue;
+    
+}
+
 #catchphrase {
     font-size: 3em;
     font-family: Jura;
@@ -90,6 +115,8 @@ header {
     position: relative;
     left: 20em;
     top: -2em;
+    z-index: 2;
+    margin-bottom: 2.2em;
 }
 
 article .excerpt { 
@@ -105,6 +132,8 @@ article .excerpt {
     border: 10px solid cadetblue;
     border-radius: 25px;
     margin-bottom: 1em;
+    position: relative;
+    z-index: 2;
 }
 
 .invisible {
@@ -147,7 +176,7 @@ a:link {
     color: midnightblue;
 }
 
-a:visited {
+header nav a:visited {
     color:whitesmoke;
 }
 
@@ -252,10 +281,8 @@ hr {
     font-size: 2em;
 }
 
-#horizon h3 {
-    font-size: 2em;
-    margin-left: 48%;
-    color: midnightblue;
+#news .intro ul {
+    margin-top: 1.8em;
 }
 
 #contact fieldset {
@@ -265,6 +292,10 @@ hr {
     margin-top: -3em;
     margin-bottom: 1em;
     border-radius: 25px;
+}
+
+#contact .fixedspace {
+    margin-bottom: 4em;
 }
 
 fieldset legend {
@@ -331,3 +362,32 @@ footer p {
 small {
     font-family: Jura, sans-serif;
 }
+
+#resources dl {
+    font-size: 1.5em;
+    font-family: Arsenal;
+    width: 760px;
+    position: relative;
+    left: 13em;
+}
+
+#resources dd {
+    margin-bottom: .5em;
+}
+
+.fixedspace {
+    background-image: url(images/milkyway.webp);
+    width: 1248px;
+    height: 150px;
+    z-index: 0;
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    left: -3em;
+    top: -1.8em; 
+    
+
+    
+}
+
+
