@@ -293,7 +293,11 @@ footer {
     margin-bottom: 1em;
     left: -.5em;
     top: 0em;    
-}   
+}
+    
+.p1 span, .p2 span {
+    font-size: 1.3em;  
+}
     
 }
 
