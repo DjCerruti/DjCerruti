@@ -344,7 +344,7 @@ h2 {
     top: -.15em;
     }
 
-#home h3 {
+#home h3, #gateway h3 {
     font-family: Jura, sans-serif;
     font-size: 2em;
     color: midnightblue;
