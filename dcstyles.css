@@ -42,7 +42,7 @@ body {
     margin-bottom: 1.2em;
     margin-left: -.5em;
     position: relative;
-    top: -3em;
+    top: -3.2em;
     font-family: Jura, sans-serif;
 }
     
@@ -66,7 +66,7 @@ body {
         font-weight: 800;
         position: relative;
         text-align: center;
-        top: -6.2em;   
+        top: -6.4em;   
         margin-bottom: -1.1em;
     }
 
@@ -626,8 +626,8 @@ article .excerpt {
 }
 
 #home nav ul li, #about nav ul li, #books nav ul li, #horizon nav ul li, #news nav ul li, #contact nav ul li, #gateway nav ul li, #resources nav ul li, #excerpt1 nav ul li, #excerpt2 nav ul li, #excerpt3 nav ul li, #excerpt4 nav ul li {
-    font-size: 2em;
-    margin-bottom: .85em;
+    font-size: 1.6em;
+    margin-bottom: 1.2em;
     position: relative;
     top: -1.4em;
     left: -.5em;
@@ -662,7 +662,7 @@ article .excerpt {
         font-weight: 800;
         position: relative;
         text-align: center;
-        top: -4.2em;
+        top: -3.8em;
         margin-bottom: -1.1em;
     }
 
