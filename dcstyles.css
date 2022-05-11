@@ -438,7 +438,7 @@ h2 {
 }
     
 #gateway h3 {
-    margin-bottom: 1em;    
+    margin-bottom: .5em;    
 }
 
 #home h4 {
@@ -571,6 +571,10 @@ article .excerpt {
     margin-bottom: 1em;
     position: relative;
     z-index: 2;
+    }
+    
+    #gateway article {
+        margin-bottom: 2em;
     }
     
 .readmore {
