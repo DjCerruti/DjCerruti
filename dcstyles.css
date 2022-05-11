@@ -90,8 +90,8 @@ nav ul a:hover {
 }
    
 #home h1 {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 12%;
+    margin-right: 12%;
     font-family: Jura, sans-serif;
     font-size: 2.4em;
     margin-top: -0em;
@@ -99,17 +99,7 @@ nav ul a:hover {
     color: goldenrod;
     padding-left: 0em;
     text-shadow: .1em .1em .1em midnightblue;
-    animation-name: moveme;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
 }
-    
- @keyframes moveme { 
-        0% { top: -2em; }
-        100% { top: -.6em; }    
-    }
     
 #excerpt1 .featuredimage, #excerpt2 .featuredimage, #excerpt3 .featuredimage, #excerpt4 .featuredimage {
     border: 10px solid cadetblue;
@@ -197,7 +187,7 @@ h2 {
 
 h3 {
     font-family: Jura, sans-serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: midnightblue;
     width: 7em;
     margin-left: 1.2em;
@@ -221,34 +211,22 @@ h4 {
 
 #home #catchphrase {
     display: block;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 12%;
+    margin-right: 12%;
     padding-left: .3em;
-    font-size: .85em;
+    font-size: .8em;
     font-family: Jura;
     margin-top: 0em;
     color: cadetblue;
     font-weight: 800;
-    animation-name: opacity1;
-    animation-duration: 1s;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    opacity: 0;
 }
-    
-    @keyframes opacity1 {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
-    }
     
 #catchphrase {
     display: block;
     margin-left: 12%;
     margin-right: 12%;
     padding-left: .3em;
-    font-size: .85em;
+    font-size: .8em;
     font-family: Jura;
     margin-top: 0em;
     color: cadetblue;
