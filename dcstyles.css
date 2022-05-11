@@ -386,7 +386,7 @@ body {
     padding-left: 0em;
     text-shadow: .1em .1em .1em midnightblue;
     animation-name: moveme;
-    animation-duration: 2s;
+    animation-duration: 1.2s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
@@ -499,8 +499,8 @@ h2 {
     color: cadetblue;
     font-weight: 800;
     animation-name: opacity1;
-    animation-duration: 1s;
-    animation-delay: 2s;
+    animation-duration: .6s;
+    animation-delay: 1.2s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
